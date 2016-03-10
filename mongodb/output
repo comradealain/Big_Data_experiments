@@ -1,8 +1,0 @@
-> db.restaurants.insert({"mulund":"mumbai"})
-> db.restaurants.find({"mulund":"mumbai"})
-{ "_id" : ObjectId("56d7de1d4e6f3d1ef44b1c5b"), "mulund" : "mumbai" }
-
-> db.restaurants.find({"grades.score":{ $gt: 131}})
-> db.restaurants.find({"grades.score":{ $gt: 130}})
-{ "_id" : ObjectId("56d7dcf291179ff46f407b80"), "address" : { "building" : "65", "coord" : [  -73.9782725,  40.7624022 ], "street" : "West   54 Street", "zipcode" : "10019" }, "borough" : "Manhattan", "cuisine" : "American ", "grades" : [ 	{ 	"date" : ISODate("2014-08-22T00:00:00Z"), 	"grade" : "A", 	"score" : 11 }, 	{ 	"date" : ISODate("2014-03-28T00:00:00Z"), 	"grade" : "C", 	"score" : 131 }, 	{ 	"date" : ISODate("2013-09-25T00:00:00Z"), 	"grade" : "A", 	"score" : 11 }, 	{ 	"date" : ISODate("2013-04-08T00:00:00Z"), 	"grade" : "B", 	"score" : 25 }, 	{ 	"date" : ISODate("2012-10-15T00:00:00Z"), 	"grade" : "A", 	"score" : 11 }, 	{ 	"date" : ISODate("2011-10-19T00:00:00Z"), 	"grade" : "A", 	"score" : 13 } ], "name" : "Murals On 54/Randolphs'S", "restaurant_id" : "40372466" }
-
